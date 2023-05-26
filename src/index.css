@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+body{
+  height: 100% !important;
+  overflow-x: hidden;
+}
+
+
+:root{
+  --primary: #032541;
+  --secondary:#22CF7A;
+  --white:#fff;
+}
+a{
+  color: inherit;
+}
+
+a:hover{
+  color: inherit;
+}
+
+.btn{
+  background-color: var(--secondary);
+  color:var(--white);
+  border:none;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+  background-color: #1fa363;
+  color:white;
+}
+
+.btn:disabled {
+  pointer-events: none !important;
+  opacity: 0.5;
+
+}
+
+input:focus{
+  outline:none;
+  /* box-shadow: none; */
+}
+
+
+ul{
+  list-style: none;
+}
+
+
+
+@media (min-width:1200px) {
+  .container{
+      max-width: 1400px;
+  }
+}

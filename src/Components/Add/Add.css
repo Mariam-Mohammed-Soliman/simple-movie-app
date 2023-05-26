@@ -1,0 +1,17 @@
+.add-page input,
+.add-page input:focus{
+    background-color: var(--primary);
+    box-shadow: none;
+    font-size: 1.5rem;
+    caret-color: var(--secondary);
+    color:var(--secondary)
+}
+
+
+@media (max-width:576px) {
+    .add-page input,
+.add-page input:focus{
+    font-size: 1.2rem;
+}
+}
+

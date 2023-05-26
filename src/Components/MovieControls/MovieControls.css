@@ -1,0 +1,26 @@
+.card .card-title{
+    position: absolute;
+    bottom:8%;
+    left:28%;
+    background-color:#808080bd !important;
+    color:white;
+    width:42%;
+    height:13%;
+    text-align:center;
+    border-radius:5px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card .card-title>span{
+    font-size: 1.5rem;
+    margin: 0 0.25rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.card .card-title>span:hover{
+    color:var(--secondary);
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Courgette&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+.navbar{
+    background-color: var(--primary);
+    color:var(--white);
+}
+.navbar-toggler{
+    background-color: var(--secondary);
+}
+.navbar .nav-item{
+    font-size: 1.5rem;
+}
+.navbar .nav-item:hover{
+    color:var(--secondary) !important;
+}
+
+.navbar .navbar-brand .brandName{
+    font-size: 2.3rem;
+    font-family: 'Charm', cursive;
+}
+.navbar .navbar-brand .fa-solid{
+    font-size: 2rem;
+}
+.navbar-toggler>span{
+    color:var(--primary)
+}
+
+.navbar .addBtn,
+.navbar .addBtn:hover{
+    color:white !important;
+}
+
+@media (max-width:992px) {
+    
+    .navbar .addBtn{
+        background: none !important;
+    }
+
+    .navbar .nav-item{
+        text-align: center;
+    }
+
+}
